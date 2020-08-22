@@ -13,5 +13,10 @@ public class TestCalc {
     public void testAdd() {
         assertEquals(6, new Calc().add(3, 3));
     }
+
+    @Test
+    public void testSubtract() {
+        assertEquals(6, new Calc().subtract(9, 3));
+    }
 }
     
